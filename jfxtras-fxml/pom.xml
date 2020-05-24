@@ -35,15 +35,15 @@
 	<parent>
 		<groupId>org.jfxtras</groupId>
 		<artifactId>jfxtras-parent</artifactId>
-		<version>11.0-r2-SNAPSHOT</version>
+		<version>11.0-r1-SNAPSHOT</version>
     </parent>
     <artifactId>jfxtras-fxml</artifactId>
     <packaging>jar</packaging>
 
     <dependencies>
+		<dependency>
+			<groupId>org.openjfx</groupId>
+			<artifactId>javafx-fxml</artifactId>
+		</dependency>
     </dependencies>
-    <build>
-		<plugins>
-		</plugins>
-    </build>
 </project>

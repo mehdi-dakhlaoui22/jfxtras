@@ -35,12 +35,17 @@
 	<parent>
 		<groupId>org.jfxtras</groupId>
 		<artifactId>jfxtras-parent</artifactId>
-		<version>11.0-r2-SNAPSHOT</version>
+		<version>11.0-r1-SNAPSHOT</version>
     </parent>
     <artifactId>jfxtras-test-support</artifactId>
     <packaging>jar</packaging>
 
     <dependencies>
+		<dependency>
+			<groupId>org.openjfx</groupId>
+			<artifactId>javafx-controls</artifactId>
+		</dependency>
+		
         <dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
