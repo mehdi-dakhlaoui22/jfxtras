@@ -226,7 +226,7 @@
 				<artifactId>license-maven-plugin</artifactId>
 				<version>3.0</version>
 				<configuration>
-					<header>license-template.txt</header>
+					<header>${maven.multiModuleProjectDirectory}/license-template.txt</header>
 					<properties>
 						<year>${year}</year>
 					</properties>
